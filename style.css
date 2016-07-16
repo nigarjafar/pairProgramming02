@@ -1,0 +1,275 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size:15px;
+}
+
+/**********************Common Classes*****************/
+.fullWidth{
+width:100%;
+}
+
+.mainWidth{
+	width:1180px;
+}
+
+.pullLeft{
+	float:left;
+}
+
+.pullRight{
+	float:right;
+}
+
+.clear{
+	clear:both;
+}
+
+.verticalSpacer{
+	height:30px;
+}
+
+.marginAuto{
+	margin:0 auto;
+}
+
+.rightMargin{
+	margin-right:30px;
+}
+
+
+.commonHeight{
+	height:365px;
+}
+.a:hover{
+	background-color: #222533
+}
+/**********Colors**********/
+.firstColor{
+	background-color: #21C2F8;
+}
+
+.secondColor{
+	background-color:#222533;
+}
+
+.thirdColor{
+	background-color: #F2F2F2
+}
+
+.exampleColor{
+	background-color: bisque;
+}
+.exColor{
+	background-color:lightblue;
+}
+
+/************Fonts***********/
+.textWhite{
+	color:white;
+}
+.textBlue{
+	color: #21C2F8
+}
+
+.textBlack{
+	color:#222533
+}
+
+h1{
+font-size:3em;
+}
+
+h2{
+	font-size:2.5em;
+	padding:15px 0px;
+	font-weight: bold;
+}
+
+h1,h2{
+	text-transform:uppercase;
+}
+/*****Header *******/
+.headerBox{
+	width:315px;
+	height:150px;
+	text-align: center;
+}
+
+.headerBox h5 {
+	font-size:2em;
+	color: black;
+	font-weight:bold;
+
+}
+
+#menu{
+	height:85px;
+	border-bottom: 1px solid lightgray;
+	border-top: 1px solid lightgray;
+}
+
+.headerBox h1{
+	line-height:70px;
+}
+.menuBar ul{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	height: 83px;
+}
+.menuBar ul li{
+	float: left;
+}
+.menuBar ul li a{
+	display: block;
+ color: white;
+ padding: 15px 0px 15px 0px;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ height: 83px;
+ color: black;
+ width: 130px;
+ font-size: 1.8em;
+ line-height: 55px;
+ border-left: 1px solid lightgray;
+ border-right: 1px solid lightgray;
+}
+.menuBar ul li a:hover{
+	background: #222533;
+	color: white;
+	transition: all .2s ease;
+}
+.home{
+	margin-left: 45px;
+	color: white;
+}
+input{
+	width: 200px;
+	margin-top: 10px;
+	height: 60px;
+}
+/*************Slider************/
+#slider{
+	height:400px;
+	background: url("images/page-1_slide1.jpg") ;
+	background-size: cover;
+	position:relative;
+}
+
+#slider div{
+	position:absolute;
+	width:480px;
+	height:155px;
+	top:30px;
+	left:0px;
+	right:0px;
+	text-align:center;
+	background-color:rgba(33,144,218,0.7);
+
+}
+
+#slider i{
+	font-size:2.5em;
+	float:right;
+	padding:5px;
+}
+
+
+/**********COntent*********/
+.boxOne {
+ 	width:370px;
+ 	position: relative;
+ 	overflow:hidden;
+ 	
+ }
+
+.boxTwo{
+	width:770px;
+	position: relative;
+	overflow:hidden;
+}
+
+.underDiv{
+
+	height: 160px;
+	
+	
+	position: absolute;
+	bottom:-5px;
+	opacity: 0.8;
+	padding:15px;
+
+
+}
+
+.underDiv h2{
+
+	
+	z-index: 1;
+	color:white;
+
+	
+	font-weight:bold;
+
+}
+
+
+
+.divBack {
+	background-color: black;
+}
+
+.divBack2 {
+	background-color: white;
+}
+
+/***********Company***********/
+#company{
+	height:400px;
+}
+
+.companyBox{
+	width:575px;
+	height:225px;
+}
+
+.companyBox p {
+	line-height:25px;
+}
+
+/******Services********/
+#services{
+	height:570px;
+}
+
+.serviceBox{
+	width:575px;
+}
+
+.serviceBox div:last-child{
+	background:url("images/page-3_img3_original.jpg") cover;
+}
+/*********Succeed********/
+#succeed{
+	height:610px;
+	background-image: url("images/parallax1.jpg");
+	background-size:cover;
+}
+
+/**************Our CLients***********/
+
+#ourClients{
+	height:600px;
+}
+
+/*************Map**************/
+#map{
+	height:580px;
+}
+
+#footer{
+	height:85px;
+}
